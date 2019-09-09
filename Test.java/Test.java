@@ -91,3 +91,42 @@
 //                 }
 //         }
 // }
+// //输出乘法口诀表 
+// public class Test {
+//     public static void main(String[] args) {
+//         int i = 1;
+//         int j = 1;
+//         for(; i <= 9; i++) {
+//             for(j = 1; j <= i; j++) {
+//                 System.out.printf("%d*%d=%2d ",j,i,i*j);
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+// //求两个正整数的最大公约数
+// public class Test {
+//     public static void main(String[] args) {
+//         int x = 20;
+//         int y = 10;
+//         while(x % y != 0) {
+//             int tmp = x;
+//             x = y;
+//             y = tmp%x;
+//         }
+//         System.out.println(y);
+//     }
+// }
+//计算1/1-1/2+1/3-1/4+1/5 …… + 1/99 - 1/100 的值。
+public class Test {
+    public static void main(String[] args) {
+        double sum = 0;
+        double i = 1;
+        int start = 1;
+        for(; i <= 100; i++) {
+            sum = sum+start/i;
+            start=start*-1;
+        }
+        System.out.println(sum);
+    }
+}
