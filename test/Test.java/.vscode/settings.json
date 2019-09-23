@@ -1,0 +1,13 @@
+{
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.suggest.completeFunctionCalls": true,
+    "java.codeGeneration.generateComments": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "workbench.settings.openDefaultSettings": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "autoimport.showNotifications": true,
+
+
+}
